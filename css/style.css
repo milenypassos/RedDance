@@ -15,7 +15,9 @@ VERSION:	Versoin Number
   font-style: normal;
   font-display: swap;
 }
-
+.linkzinho{
+  color: white;
+}
 body {
   line-height: 1.2;
   font-family: "Roboto", sans-serif;
@@ -112,7 +114,7 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #41228e;
+  background: #8A2BE2;
   color: #fff;
 }
 
@@ -121,7 +123,8 @@ h6, .h6 {
 }
 
 .btn-primary:hover {
-  background: #542cb7;
+  background: #D8BFD8;
+  color: #000;
 }
 
 .btn-primary.focus, .btn-primary.active {
@@ -629,6 +632,79 @@ textarea.form-control {
 .hover-shadow:hover {
   box-shadow: 0px 18px 40px 8px rgba(224, 241, 255, 0.54) !important;
 }
+/*textos ed fisica - karol*/
+
+#moda{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#moda h2{
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+.foto img{
+  width: 60%
+}
+.foto{
+  float: left;
+  width: 50%;
+}
+
+.texto{
+  float: right;
+  width: 50%;
+  font-size: 1.2em;
+}
+
+/*Logo karol-moda*/
+#header .logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#header .logo a {
+  color: #ffff;
+  font-family: "BwNistaInt-xBd";
+}
+
+#header .logo img {
+  max-height: 40px;
+}
+
+#header .logo h2{
+
+}
+
+/*Footer- moda-karol*/
+.rodape {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: #0000;
+  padding-top: 400px;
+  padding-bottom: 20px;
+  float: left;
+}
+@media (max-width: 992px) {
+  #header .logo {
+    font-size: 28px;
+  }
+}
+
+/*--------------------------------------------------------------
+# fim-moda Karol
+--------------------------------------------------------------*/
+
+
+
 
 /* /service */
 /* portfolio */
@@ -762,6 +838,26 @@ textarea.form-control {
   }
 }
 
+/*Karol-moda*/
+
+#moda{
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 90vh;
+  justify-content:center;
+  min-height: 80vh;
+}
+#moda h2{
+  text-align: center;
+  width: 100%;
+}
+
+#moda div{
+  flex-grow: 1;
+  flex-basis: 300px;
+  padding: 0 30px;
+}
 blockquote {
   display: inline-block;
   padding: 10px 20px;
